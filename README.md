@@ -5,11 +5,11 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![pypdf](https://img.shields.io/badge/powered_by-pypdf-blue)](https://pypdf.readthedocs.io/)
 
-Python PDF toolkit with 21 operations for everyday document tasks. [Merge multiple PDFs](https://peasypdf.com/tools/merge-pdf/) into one, [split documents](https://peasypdf.com/tools/split-pdf/) by page ranges, [compress file size](https://peasypdf.com/tools/compress-pdf/), [rotate pages](https://peasypdf.com/tools/rotate-pdf/), [extract text](https://peasypdf.com/tools/extract-text/), [encrypt with passwords](https://peasypdf.com/tools/encrypt-pdf/), reorder, crop, resize, flatten forms, and manage PDF metadata -- all through a clean, consistent API. Every function accepts `bytes`, `Path`, or `str` and returns `bytes`, making it easy to chain operations or integrate into web services.
+Python PDF toolkit with 21 operations for everyday document tasks. Merge multiple PDFs into one, split documents by page ranges, compress file size, rotate pages, extract text, encrypt with passwords, reorder, crop, resize, flatten forms, and manage PDF metadata -- all through a clean, consistent API. Every function accepts `bytes`, `Path`, or `str` and returns `bytes`, making it easy to chain operations or integrate into web services.
 
 Built for [PeasyPDF](https://peasypdf.com), a free online PDF toolkit with 25 browser-based tools for merging, splitting, compressing, converting, and securing PDF documents. The site processes files entirely client-side for privacy, while the Python package brings the same capabilities to scripts, pipelines, and AI assistants.
 
-> **Try the interactive tools at [peasypdf.com](https://peasypdf.com)** -- [Merge PDF](https://peasypdf.com/tools/merge-pdf/), [Split PDF](https://peasypdf.com/tools/split-pdf/), [Compress PDF](https://peasypdf.com/tools/compress-pdf/), [Rotate PDF](https://peasypdf.com/tools/rotate-pdf/), [Encrypt PDF](https://peasypdf.com/tools/encrypt-pdf/), and [Extract Text](https://peasypdf.com/tools/extract-text/).
+> **Try the interactive tools at [peasypdf.com](https://peasypdf.com)** -- [PDF Tools](https://peasypdf.com/), [PDF Glossary](https://peasypdf.com/glossary/), [PDF Guides](https://peasypdf.com/guides/).
 
 <p align="center">
   <img src="demo.gif" alt="peasy-pdf demo — merge, split, compress PDFs in Python" width="800">
@@ -121,7 +121,7 @@ summary = extract_pages("annual_report.pdf", pages="2-4")
 front_sides = odd_even("booklet.pdf", mode="odd")
 ```
 
-Learn more: [Merge PDF Tool](https://peasypdf.com/tools/merge-pdf/) · [Split PDF Tool](https://peasypdf.com/tools/split-pdf/) · [Rotate PDF Tool](https://peasypdf.com/tools/rotate-pdf/)
+Learn more: [PeasyPDF Tools](https://peasypdf.com/) · [PDF Glossary](https://peasypdf.com/glossary/)
 
 ### Document Operations
 
@@ -164,7 +164,7 @@ cropped = crop("scan.pdf", left=36, right=36, top=36, bottom=36)
 flat = flatten("filled_form.pdf")
 ```
 
-Learn more: [Compress PDF Tool](https://peasypdf.com/tools/compress-pdf/) · [Resize PDF Guide](https://peasypdf.com/guides/) · [PDF Glossary](https://peasypdf.com/glossary/)
+Learn more: [PeasyPDF](https://peasypdf.com/) · [PDF Guides](https://peasypdf.com/guides/) · [PDF Glossary](https://peasypdf.com/glossary/)
 
 ### Text & Metadata
 
@@ -207,7 +207,7 @@ updated = set_metadata("draft.pdf", title="Q4 Financial Report", author="Finance
 clean = strip_metadata("internal_memo.pdf")
 ```
 
-Learn more: [Extract Text Tool](https://peasypdf.com/tools/extract-text/) · [PDF Metadata Guide](https://peasypdf.com/guides/) · [What is PDF Metadata?](https://peasypdf.com/glossary/)
+Learn more: [PeasyPDF](https://peasypdf.com/) · [PDF Guides](https://peasypdf.com/guides/) · [PDF Glossary](https://peasypdf.com/glossary/)
 
 ### Security
 
@@ -238,7 +238,7 @@ protected = encrypt(
 unlocked = decrypt("protected.pdf", password="secret123")
 ```
 
-Learn more: [Encrypt PDF Tool](https://peasypdf.com/tools/encrypt-pdf/) · [Decrypt PDF Tool](https://peasypdf.com/tools/decrypt-pdf/) · [PDF Security Guide](https://peasypdf.com/guides/)
+Learn more: [PeasyPDF](https://peasypdf.com/) · [PDF Guides](https://peasypdf.com/guides/)
 
 ## Page Specs
 
@@ -462,8 +462,7 @@ OpenAPI 3.1.0 spec: [peasypdf.com/api/openapi.json](https://peasypdf.com/api/ope
 
 ## Learn More About PDF
 
-- **Tools**: [Merge PDF](https://peasypdf.com/tools/merge-pdf/) · [Split PDF](https://peasypdf.com/tools/split-pdf/) · [Compress PDF](https://peasypdf.com/tools/compress-pdf/) · [Rotate PDF](https://peasypdf.com/tools/rotate-pdf/) · [Encrypt PDF](https://peasypdf.com/tools/encrypt-pdf/) · [Extract Text](https://peasypdf.com/tools/extract-text/)
-- **Browse**: [All PDF Tools](https://peasypdf.com/tools/) · [PDF Operations](https://peasypdf.com/tools/)
+- **Tools**: [PeasyPDF Tools](https://peasypdf.com/)
 - **Guides**: [PDF Glossary](https://peasypdf.com/glossary/) · [PDF Guides](https://peasypdf.com/guides/)
 - **API**: [Developer Docs](https://peasypdf.com/developers/) · [OpenAPI Spec](https://peasypdf.com/api/openapi.json)
 
