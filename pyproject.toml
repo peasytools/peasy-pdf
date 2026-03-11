@@ -1,6 +1,6 @@
 [project]
 name = "peasy-pdf"
-version = "0.1.0"
+version = "0.1.1"
 description = "Python PDF toolkit — merge, split, rotate, compress, extract text, encrypt, decrypt, and 14 more operations. Powered by pypdf."
 readme = "README.md"
 license = "MIT"
