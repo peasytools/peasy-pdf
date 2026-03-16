@@ -1,6 +1,6 @@
 # peasy-pdf
 
-[![PyPI](https://img.shields.io/pypi/v/peasy-pdf)](https://pypi.org/project/peasy-pdf/)
+[![PyPI version](https://agentgif.com/badge/pypi/peasy-pdf/version.svg)](https://pypi.org/project/peasy-pdf/)
 [![Python](https://img.shields.io/pypi/pyversions/peasy-pdf)](https://pypi.org/project/peasy-pdf/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![pypdf](https://img.shields.io/badge/powered_by-pypdf-blue)](https://pypdf.readthedocs.io/)
