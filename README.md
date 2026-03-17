@@ -412,6 +412,23 @@ results = api.search("compress")
 tool = api.get_tool("merge-pdf")
 ```
 
+```python
+# Search the PDF glossary for technical terms
+terms = api.search_glossary("linearization")
+for term in terms:
+    print(f"{term['term']}: {term['definition']}")
+
+# Browse PDF guides and tutorials
+guides = api.list_guides()
+for guide in guides:
+    print(f"{guide['title']}: {guide['url']}")
+
+# Discover use cases for PDF operations
+use_cases = api.list_use_cases()
+for uc in use_cases:
+    print(f"{uc['title']}: {uc['description']}")
+```
+
 Full API documentation at [peasypdf.com/developers/](https://peasypdf.com/developers/).
 OpenAPI 3.1.0 spec: [peasypdf.com/api/openapi.json](https://peasypdf.com/api/openapi.json).
 
@@ -462,15 +479,20 @@ OpenAPI 3.1.0 spec: [peasypdf.com/api/openapi.json](https://peasypdf.com/api/ope
 
 ## Learn More About PDF
 
-- **Tools**: [PeasyPDF Tools](https://peasypdf.com/)
-- **Guides**: [PDF Glossary](https://peasypdf.com/glossary/) · [PDF Guides](https://peasypdf.com/guides/)
-- **API**: [Developer Docs](https://peasypdf.com/developers/) · [OpenAPI Spec](https://peasypdf.com/api/openapi.json)
+- **Tools**: [PDF Merge](https://peasypdf.com/tools/pdf-merge/) · [PDF Split](https://peasypdf.com/tools/pdf-split/) · [PDF Compress](https://peasypdf.com/tools/pdf-compress/) · [All PDF Tools](https://peasypdf.com/)
+- **Guides**: [How to Merge PDFs](https://peasypdf.com/guides/how-to-merge-pdfs/) · [PDF Compression Guide](https://peasypdf.com/guides/pdf-compression/) · [All Guides](https://peasypdf.com/guides/)
+- **Glossary**: [What is PDF/A?](https://peasypdf.com/glossary/pdf-a/) · [PDF Metadata](https://peasypdf.com/glossary/pdf-metadata/) · [All Terms](https://peasypdf.com/glossary/)
+- **Formats**: [PDF Format](https://peasypdf.com/formats/pdf/) · [All Formats](https://peasypdf.com/formats/)
+- **API**: [REST API Docs](https://peasypdf.com/developers/) · [OpenAPI Spec](https://peasypdf.com/api/openapi.json)
 
 ## Also Available
 
 | Platform | Install | Link |
 |----------|---------|------|
-| **npm** | `npm install peasy-pdf` | [npm](https://www.npmjs.com/package/peasy-pdf) |
+| **TypeScript / npm** | `npm install peasy-pdf` | [npm](https://www.npmjs.com/package/peasy-pdf) |
+| **Go** | `go get github.com/peasytools/peasy-pdf-go` | [pkg.go.dev](https://pkg.go.dev/github.com/peasytools/peasy-pdf-go) |
+| **Rust** | `cargo add peasy-pdf` | [crates.io](https://crates.io/crates/peasy-pdf) |
+| **Ruby** | `gem install peasy-pdf` | [RubyGems](https://rubygems.org/gems/peasy-pdf) |
 | **MCP** | `uvx --from "peasy-pdf[mcp]" python -m peasy_pdf.mcp_server` | [Config](#mcp-server-claude-cursor-windsurf) |
 
 ## Peasy Developer Tools
@@ -479,15 +501,14 @@ Part of the [Peasy](https://peasytools.com) open-source developer tools ecosyste
 
 | Package | PyPI | npm | Description |
 |---------|------|-----|-------------|
-| **peasy-pdf** | [PyPI](https://pypi.org/project/peasy-pdf/) | [npm](https://www.npmjs.com/package/peasy-pdf) | PDF merge, split, compress, 21 operations -- [peasypdf.com](https://peasypdf.com) |
-| peasy-image | [PyPI](https://pypi.org/project/peasy-image/) | [npm](https://www.npmjs.com/package/peasy-image) | Image resize, crop, convert, compress, 20 operations -- [peasyimage.com](https://peasyimage.com) |
-| peasy-css | [PyPI](https://pypi.org/project/peasy-css/) | [npm](https://www.npmjs.com/package/peasy-css) | CSS gradients, shadows, flexbox, grid generators -- [peasycss.com](https://peasycss.com) |
-| peasy-compress | [PyPI](https://pypi.org/project/peasy-compress/) | [npm](https://www.npmjs.com/package/peasy-compress) | ZIP, TAR, gzip, brotli archive operations -- [peasytools.com](https://peasytools.com) |
-| peasy-document | [PyPI](https://pypi.org/project/peasy-document/) | [npm](https://www.npmjs.com/package/peasy-document) | Markdown, HTML, CSV, JSON conversions -- [peasytools.com](https://peasytools.com) |
-| peasy-audio | [PyPI](https://pypi.org/project/peasy-audio/) | -- | Audio convert, trim, merge, normalize -- [peasyaudio.com](https://peasyaudio.com) |
-| peasy-video | [PyPI](https://pypi.org/project/peasy-video/) | -- | Video trim, resize, GIF conversion -- [peasyvideo.com](https://peasyvideo.com) |
-| peasy-convert | [PyPI](https://pypi.org/project/peasy-convert/) | -- | Unified CLI for all Peasy tools -- [peasytools.com](https://peasytools.com) |
-| peasy-mcp | [PyPI](https://pypi.org/project/peasy-mcp/) | -- | Unified MCP server for AI assistants -- [peasytools.com](https://peasytools.com) |
+| **peasy-pdf** | **[PyPI](https://pypi.org/project/peasy-pdf/)** | **[npm](https://www.npmjs.com/package/peasy-pdf)** | **PDF merge, split, compress, 21 operations — [peasypdf.com](https://peasypdf.com)** |
+| peasy-image | [PyPI](https://pypi.org/project/peasy-image/) | [npm](https://www.npmjs.com/package/peasy-image) | Image resize, crop, convert, compress, 20 operations — [peasyimage.com](https://peasyimage.com) |
+| peasytext | [PyPI](https://pypi.org/project/peasytext/) | [npm](https://www.npmjs.com/package/peasytext) | Text case, slugify, word count, encoding — [peasytext.com](https://peasytext.com) |
+| peasy-css | [PyPI](https://pypi.org/project/peasy-css/) | [npm](https://www.npmjs.com/package/peasy-css) | CSS gradients, shadows, flexbox, grid generators — [peasycss.com](https://peasycss.com) |
+| peasy-compress | [PyPI](https://pypi.org/project/peasy-compress/) | [npm](https://www.npmjs.com/package/peasy-compress) | ZIP, TAR, gzip, brotli archive operations — [peasytools.com](https://peasytools.com) |
+| peasy-document | [PyPI](https://pypi.org/project/peasy-document/) | [npm](https://www.npmjs.com/package/peasy-document) | Markdown, HTML, CSV, JSON conversions — [peasyformats.com](https://peasyformats.com) |
+| peasy-audio | [PyPI](https://pypi.org/project/peasy-audio/) | [npm](https://www.npmjs.com/package/peasy-audio) | Audio convert, trim, merge, normalize — [peasyaudio.com](https://peasyaudio.com) |
+| peasy-video | [PyPI](https://pypi.org/project/peasy-video/) | [npm](https://www.npmjs.com/package/peasy-video) | Video trim, resize, GIF conversion — [peasyvideo.com](https://peasyvideo.com) |
 
 ## License
 
