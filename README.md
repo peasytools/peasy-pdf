@@ -121,7 +121,7 @@ summary = extract_pages("annual_report.pdf", pages="2-4")
 front_sides = odd_even("booklet.pdf", mode="odd")
 ```
 
-Learn more: [PeasyPDF Tools](https://peasypdf.com/) · [PDF Glossary](https://peasypdf.com/glossary/)
+Learn more: [PDF Merge Tool](https://peasypdf.com/pdf/merge-pdf/) · [PDF Split Tool](https://peasypdf.com/pdf/split-pdf/) · [What is a Page Tree?](https://peasypdf.com/glossary/page-tree/)
 
 ### Document Operations
 
@@ -164,7 +164,7 @@ cropped = crop("scan.pdf", left=36, right=36, top=36, bottom=36)
 flat = flatten("filled_form.pdf")
 ```
 
-Learn more: [PeasyPDF](https://peasypdf.com/) · [PDF Guides](https://peasypdf.com/guides/) · [PDF Glossary](https://peasypdf.com/glossary/)
+Learn more: [PDF Compress Tool](https://peasypdf.com/pdf/compress-pdf/) · [Flatten PDF Tool](https://peasypdf.com/pdf/flatten-pdf/) · [PDF Compression Guide](https://peasypdf.com/guides/pdf-compression-guide/)
 
 ### Text & Metadata
 
@@ -207,7 +207,7 @@ updated = set_metadata("draft.pdf", title="Q4 Financial Report", author="Finance
 clean = strip_metadata("internal_memo.pdf")
 ```
 
-Learn more: [PeasyPDF](https://peasypdf.com/) · [PDF Guides](https://peasypdf.com/guides/) · [PDF Glossary](https://peasypdf.com/glossary/)
+Learn more: [Extract Text from PDF](https://peasypdf.com/pdf/extract-text-from-pdf/) · [Edit PDF Metadata](https://peasypdf.com/pdf/edit-pdf-metadata/) · [PDF Metadata Guide](https://peasypdf.com/guides/pdf-metadata-document-properties/)
 
 ### Security
 
@@ -238,7 +238,7 @@ protected = encrypt(
 unlocked = decrypt("protected.pdf", password="secret123")
 ```
 
-Learn more: [PeasyPDF](https://peasypdf.com/) · [PDF Guides](https://peasypdf.com/guides/)
+Learn more: [PDF Security Best Practices](https://peasypdf.com/guides/pdf-security-best-practices/) · [What is Encryption?](https://peasypdf.com/glossary/encryption/) · [Digital Signatures in PDF](https://peasypdf.com/glossary/digital-signature/)
 
 ## Page Specs
 
@@ -479,10 +479,10 @@ OpenAPI 3.1.0 spec: [peasypdf.com/api/openapi.json](https://peasypdf.com/api/ope
 
 ## Learn More About PDF
 
-- **Tools**: [PDF Merge](https://peasypdf.com/pdf/pdf-merge/) · [PDF Split](https://peasypdf.com/pdf/pdf-split/) · [PDF Compress](https://peasypdf.com/pdf/pdf-compress/) · [All PDF Tools](https://peasypdf.com/)
-- **Guides**: [How to Merge PDFs](https://peasypdf.com/guides/) · [PDF Compression Guide](https://peasypdf.com/guides/) · [All Guides](https://peasypdf.com/guides/)
-- **Glossary**: [What is PDF/A?](https://peasypdf.com/glossary/) · [PDF Metadata](https://peasypdf.com/glossary/) · [All Terms](https://peasypdf.com/glossary/)
-- **Formats**: [PDF Format](https://peasypdf.com/formats/pdf/) · [All Formats](https://peasypdf.com/formats/)
+- **Tools**: [Merge PDF](https://peasypdf.com/pdf/merge-pdf/) · [Split PDF](https://peasypdf.com/pdf/split-pdf/) · [Compress PDF](https://peasypdf.com/pdf/compress-pdf/) · [Rotate PDF](https://peasypdf.com/pdf/rotate-pdf/) · [Flatten PDF](https://peasypdf.com/pdf/flatten-pdf/) · [Watermark PDF](https://peasypdf.com/pdf/watermark-pdf/) · [All PDF Tools](https://peasypdf.com/)
+- **Guides**: [How to Merge PDF Files](https://peasypdf.com/guides/how-to-merge-pdf-files/) · [PDF Compression Guide](https://peasypdf.com/guides/pdf-compression-guide/) · [How to Split PDF Pages](https://peasypdf.com/guides/how-to-split-pdf-pages/) · [PDF Security Best Practices](https://peasypdf.com/guides/pdf-security-best-practices/) · [PDF Metadata & Document Properties](https://peasypdf.com/guides/pdf-metadata-document-properties/) · [All Guides](https://peasypdf.com/guides/)
+- **Glossary**: [PDF](https://peasypdf.com/glossary/pdf/) · [PDF/A](https://peasypdf.com/glossary/pdfa/) · [Linearization](https://peasypdf.com/glossary/linearization/) · [AcroForm](https://peasypdf.com/glossary/acroform/) · [OCR](https://peasypdf.com/glossary/ocr/) · [Flattening](https://peasypdf.com/glossary/flattening/) · [All Terms](https://peasypdf.com/glossary/)
+- **Formats**: [PDF](https://peasypdf.com/formats/pdf/) · [DOCX](https://peasypdf.com/formats/docx/) · [EPUB](https://peasypdf.com/formats/epub/) · [All Formats](https://peasypdf.com/formats/)
 - **API**: [REST API Docs](https://peasypdf.com/developers/) · [OpenAPI Spec](https://peasypdf.com/api/openapi.json)
 
 ## Also Available
