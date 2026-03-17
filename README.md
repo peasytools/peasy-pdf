@@ -479,9 +479,9 @@ OpenAPI 3.1.0 spec: [peasypdf.com/api/openapi.json](https://peasypdf.com/api/ope
 
 ## Learn More About PDF
 
-- **Tools**: [PDF Merge](https://peasypdf.com/tools/pdf-merge/) · [PDF Split](https://peasypdf.com/tools/pdf-split/) · [PDF Compress](https://peasypdf.com/tools/pdf-compress/) · [All PDF Tools](https://peasypdf.com/)
-- **Guides**: [How to Merge PDFs](https://peasypdf.com/guides/how-to-merge-pdfs/) · [PDF Compression Guide](https://peasypdf.com/guides/pdf-compression/) · [All Guides](https://peasypdf.com/guides/)
-- **Glossary**: [What is PDF/A?](https://peasypdf.com/glossary/pdf-a/) · [PDF Metadata](https://peasypdf.com/glossary/pdf-metadata/) · [All Terms](https://peasypdf.com/glossary/)
+- **Tools**: [PDF Merge](https://peasypdf.com/pdf/pdf-merge/) · [PDF Split](https://peasypdf.com/pdf/pdf-split/) · [PDF Compress](https://peasypdf.com/pdf/pdf-compress/) · [All PDF Tools](https://peasypdf.com/)
+- **Guides**: [How to Merge PDFs](https://peasypdf.com/guides/) · [PDF Compression Guide](https://peasypdf.com/guides/) · [All Guides](https://peasypdf.com/guides/)
+- **Glossary**: [What is PDF/A?](https://peasypdf.com/glossary/) · [PDF Metadata](https://peasypdf.com/glossary/) · [All Terms](https://peasypdf.com/glossary/)
 - **Formats**: [PDF Format](https://peasypdf.com/formats/pdf/) · [All Formats](https://peasypdf.com/formats/)
 - **API**: [REST API Docs](https://peasypdf.com/developers/) · [OpenAPI Spec](https://peasypdf.com/api/openapi.json)
 
