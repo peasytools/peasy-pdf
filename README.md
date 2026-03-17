@@ -4,6 +4,7 @@
 [![Python](https://img.shields.io/pypi/pyversions/peasy-pdf)](https://pypi.org/project/peasy-pdf/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![pypdf](https://img.shields.io/badge/powered_by-pypdf-blue)](https://pypdf.readthedocs.io/)
+[![GitHub stars](https://agentgif.com/badge/github/peasytools/peasy-pdf/stars.svg)](https://github.com/peasytools/peasy-pdf)
 
 Python PDF toolkit with 21 operations for everyday document tasks. Merge multiple PDFs into one, split documents by page ranges, compress file size, rotate pages, extract text, encrypt with passwords, reorder, crop, resize, flatten forms, and manage PDF metadata -- all through a clean, consistent API. Every function accepts `bytes`, `Path`, or `str` and returns `bytes`, making it easy to chain operations or integrate into web services.
 
