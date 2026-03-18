@@ -13,7 +13,7 @@ Built for [PeasyPDF](https://peasypdf.com), a free online PDF toolkit with 25 br
 > **Try the interactive tools at [peasypdf.com](https://peasypdf.com)** -- [PDF Tools](https://peasypdf.com/), [PDF Glossary](https://peasypdf.com/glossary/), [PDF Guides](https://peasypdf.com/guides/).
 
 <p align="center">
-  <img src="demo.gif" alt="peasy-pdf demo — merge, split, compress PDFs in Python" width="800">
+  <a href="https://agentgif.com/WQGk8DuN"><img src="https://media.agentgif.com/WQGk8DuN.gif" alt="peasy-pdf demo — merge, split, compress PDFs in Python" width="800"></a>
 </p>
 
 ## Table of Contents
