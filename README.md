@@ -511,6 +511,17 @@ Part of the [Peasy](https://peasytools.com) open-source developer tools ecosyste
 | peasy-audio | [PyPI](https://pypi.org/project/peasy-audio/) | [npm](https://www.npmjs.com/package/peasy-audio) | Audio convert, trim, merge, normalize — [peasyaudio.com](https://peasyaudio.com) |
 | peasy-video | [PyPI](https://pypi.org/project/peasy-video/) | [npm](https://www.npmjs.com/package/peasy-video) | Video trim, resize, GIF conversion — [peasyvideo.com](https://peasyvideo.com) |
 
+## Embed Widget
+
+Embed [PeasyPdf](https://peasypdf.com) widgets on any website with [peasy-pdf-embed](https://widget.peasypdf.com):
+
+```html
+<script src="https://cdn.jsdelivr.net/npm/peasy-pdf-embed@1/dist/embed.min.js"></script>
+<div data-peasypdf="entity" data-slug="example"></div>
+```
+
+Zero dependencies · Shadow DOM · 4 themes (light/dark/sepia/auto) · [Widget docs](https://widget.peasypdf.com)
+
 ## License
 
 MIT
